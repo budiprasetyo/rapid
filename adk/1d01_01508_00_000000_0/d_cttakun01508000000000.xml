@@ -1,0 +1,384 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="c_cttakun" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="thang">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjendok">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsatker">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddept">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdunit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdprogram">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdgiat">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdib">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdlokasi">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkabkota">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddekon">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdskmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdakun">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkppn">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdbeban">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjnsban">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdctarik">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="register">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="carahitung">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ket" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="254"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ket2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="254"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>52</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>009</kdkppn>
+		<kdlokasi>32</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>325237</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi 1 Unit Rumah Negara Tipe D Seluas 50 M2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533111</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>01</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>065</kdkppn>
+		<kdlokasi>33</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>330171</kdsatker>
+		<kdskmpnen>RA</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Pembangunan Mess BPP seluas 110 M2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>
+	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>01</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>065</kdkppn>
+		<kdlokasi>33</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>330171</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Revonasi Rumah Dinas Kepala KPPN Jalan Diponegoro</ket>
+		<ket2>150 M2</ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>52</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>023</kdkppn>
+		<kdlokasi>02</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527137</kdsatker>
+		<kdskmpnen>GB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Atap 1 Unit Gedung Kantor, Penataan Layout untuk Assement Centre 1 Unit Gedung Kantor Seluas 1476 M2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>521811</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>53</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>128</kdkppn>
+		<kdlokasi>02</kdlokasi>
+		<kdoutput>EBA</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527230</kdsatker>
+		<kdskmpnen> A</kdskmpnen>
+		<kdsoutput>001</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>5218</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>09</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>086</kdkppn>
+		<kdlokasi>02</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527183</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Rumah Dinas seluas 50m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533111</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>51</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>026</kdkppn>
+		<kdlokasi>03</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527268</kdsatker>
+		<kdskmpnen>RA</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Pekerjaan Fisik Rumah Negara Jl Erlangga Tipe C (2 Unit) dan Tipe D (4 Unit) seluas 480m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>
+</VFPData>

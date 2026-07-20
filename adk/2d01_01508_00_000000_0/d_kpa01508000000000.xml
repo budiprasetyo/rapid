@@ -1,0 +1,1265 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="c_kpa" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="thang">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjendok">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsatker">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddept">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdunit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddekon">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdlokasi">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kpa">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="bendahara">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ppspm">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="test">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="statusblu">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="pplpnbp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="esawk">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="17"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="esawkguna">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="17"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="esakk">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="17"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ambangbats">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="npwp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="15"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="nodipa">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="nosprkakl">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="thsprkakl">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dasardipa">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="email">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="150"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ERLINA MAULIDIYA</bendahara>
+		<dasardipa> </dasardipa>
+		<email>eko.wahyu@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>03</kdlokasi>
+		<kdsatker>527336</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>EKO WAHYU BUDI UTOMO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3319066312840001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>RAHMAT KURNIAWAN</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>Prapto</bendahara>
+		<dasardipa> </dasardipa>
+		<email>juanda78@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>03</kdlokasi>
+		<kdsatker>527322</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>ARIS SAPUTRO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3318101102830001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>ENDANG WERDININGSIH</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>SLAMET PRASETYO</bendahara>
+		<dasardipa> </dasardipa>
+		<email>yessy.maharini@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>03</kdlokasi>
+		<kdsatker>527340</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>Yessy Silvia Maharini</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3308101707690001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SHYLVIA HERAWATI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>NASIKHATIN KHASANAH</bendahara>
+		<dasardipa> </dasardipa>
+		<email>zajri@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>03</kdlokasi>
+		<kdsatker>527357</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>ZAJRI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3328096808750003</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SUWATNO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MIA TRIYANI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>joko.pramono@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>03</kdlokasi>
+		<kdsatker>527361</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>JOKO PRAMONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3301234710960004</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>IMAN FIRMANSYAH</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>Zidni Furoida</bendahara>
+		<dasardipa> </dasardipa>
+		<email>avri@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>04</kdlokasi>
+		<kdsatker>527399</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>ARVI RISNAWATI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3308097009950001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SUTARMAN</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>TUSNIA WIDANINGSIH</bendahara>
+		<dasardipa> </dasardipa>
+		<email>yoyok.yulianto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527425</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>YOYOK YULIANTO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3273045208850003</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>ROESDHA ALAMSYAH</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>WIWIT KURNIAWAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>m.iz0001@sakti.mail.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527446</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>MOCH. IZMA NUR CHOIRONI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>6103012607820005</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SUGANDA MUJI SAPUTRO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MOCH NURDIN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>sislam@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527411</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>SAIFUL ISLAM</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3571032808830005</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>AHMADI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>LIFIA PRASETIA HABSARI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>mrusna@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527432</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>MUHAMMAD RUSNA</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3504034107890063</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SUPARDI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>IDYANINGSIH TJAHJANTI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>sri.martini@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527500</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>SRI MARTINI. SE</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>6472054810810008</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>WINDI MEILIANA</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>YANUARDI BACHTIAR</bendahara>
+		<dasardipa> </dasardipa>
+		<email>joko.maryono@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527450</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>JOKO MARYONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3577010301910001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>FIJRI RAHMAWATI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MILA NUR ROHMAH</bendahara>
+		<dasardipa> </dasardipa>
+		<email>teguh.ratno@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527488</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>TEGUH RATNO SUKARNO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3309104505970002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>AMANAH</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>Ike Ratih Wulandari</bendahara>
+		<dasardipa> </dasardipa>
+		<email>heru.kutanto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527467</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>HERU KUTANTO, S.E</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3510166007830002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>HERMAWAN RAHADIE</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>PRIYO PANDU PRAYOGI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>trimoyulianto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527471</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>TRIMO YULIANTO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3511130711950001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SOFHIAN DARSONO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>NUR HANIFAH</bendahara>
+		<dasardipa> </dasardipa>
+		<email>lurensia.firmani@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527514</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>LURENSIA FIRMANI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3309034606009001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>HENDRO SISWANDI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>GHASSIN SAFFANI PUTRI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>teguh.irwono@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>05</kdlokasi>
+		<kdsatker>527521</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>TEGUH IRWONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3511016307950004</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SAIFULLAH</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>DESRIANTI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>safuadi@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527556</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>SAFUADI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1271036412990003</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>MUSTHOFA AMIN KHUSAINI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MARSA WARDHANI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>afifudin.ikhsan@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527560</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>MUHAMAD AFIFUDIN IKHSAN</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1271106911990002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SABILAL MUHTADIN</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ERIK EFRATA KETAREN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>linggo.83@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527577</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>LINGGO SUPRANGGONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1206010107990123</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>TEGUH BAYU AJI WIBOWO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>DYLAN IGNAS ANGGIAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>joko.arianto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527610</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>DENI HARYONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1207232711980007</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>RUDI HADIANA</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MAYANG SARI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>kurniawan74@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527603</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>KURNIAWAN</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1271054103990001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>MUHAMMAD YUSRUL HANA</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>KEMAL FADLI HASIBUAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>linggo.83@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527598</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>LINGGO SUPRANGGONO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1277012508990002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>DORY SUKMA WAHYU PRABOWO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>RIANDA IMANULLAH</bendahara>
+		<dasardipa> </dasardipa>
+		<email>bachrul@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527624</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>BACHRUL ULUM</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1205106105950002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>NOVIANTO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>AHMAD SULTAN FAUZI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>anthoni.manullang@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>06</kdlokasi>
+		<kdsatker>527581</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>ANTHONI MANULLANG</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1272011512990001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>NOVITA PUTRI SE</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>YUNA SYAHWINDRY</bendahara>
+		<dasardipa> </dasardipa>
+		<email>judika@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527652</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>JUDIKA SIRAIT, SH</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1206026907970001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>INDRA ERAWAN KACIRIBU, SE.AK</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ELLISA FITRIANI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>indra.soeparjanto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527645</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>INDRA SOEPARJANTO, SE.M. AP</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1271104205920004</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>RAISA RUMAHORBO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>Navalia Cahya Vicka</bendahara>
+		<dasardipa> </dasardipa>
+		<email>ieng1968@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527670</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>IENG</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1205137011820004</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>FERDINAN HARAPAN MARULI TUA</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>GOPINDA TRI SAPUTRA PANJAITAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>nugroho.wibowo@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527687</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>NUGROHO ADI WIBOWO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1211052904960002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>ASEP SURYADI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ANGGIAT TAMBUNAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>nova70@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527666</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>NOVA JULIANA SIANTURI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1218071101880006</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>ROLAND FERNANDO S</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>DEVI SUHAILA</bendahara>
+		<dasardipa> </dasardipa>
+		<email>melda.harahap@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527741</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>MAHINDUN DHIANI MELDA HRP, SE.MSI</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1276045910960001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>FACHRY DARMA HIDAYAT</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>SYAMSUL BAHRI, SE</bendahara>
+		<dasardipa> </dasardipa>
+		<email>jakson.sp@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527691</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>JAKSON SUNARIO PANJAITAN,S.SOS</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3578200206750003</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>BENJAMIN F.M MANURUNG</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ADE YUSUF RITONGA</bendahara>
+		<dasardipa> </dasardipa>
+		<email>puji.hartoyo@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527709</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>PUJI HARTOYO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1210090911940003</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>JUNIARTI BR GINTING</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>SAUT E SIAHAAN</bendahara>
+		<dasardipa> </dasardipa>
+		<email>bernand@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527755</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>BERNAND SITUMORANG</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3175050703900007</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>FAJRIN AGUNG WIBOWO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>ANDRE MANUEL SIMANJUNTAK</bendahara>
+		<dasardipa> </dasardipa>
+		<email>sri.harioto@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>07</kdlokasi>
+		<kdsatker>527713</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>SRIHARIOTO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1271031109970002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>RITA PURNAMA SARI</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>NELLY CHAERANI</bendahara>
+		<dasardipa> </dasardipa>
+		<email>yona09@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>08</kdlokasi>
+		<kdsatker>527797</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>TISARI YONA GEUMILA</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>000000000000000</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>JOKO NURCAHYO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>MUHAMMAD TSAQIB</bendahara>
+		<dasardipa> </dasardipa>
+		<email>dodi@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>08</kdlokasi>
+		<kdsatker>527776</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>MOHAMMAD DODY FACHRUDIN</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1306061108960002</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>SYAMSU RIZAL</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>NADHILAH BUNGA FOURESKA</bendahara>
+		<dasardipa> </dasardipa>
+		<email>anton.widodo@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>08</kdlokasi>
+		<kdsatker>527802</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>ANTON WIDODO</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1306074501000004</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>PIPIT SETYO NUGROHO</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>AZIZ FAJAR PRASETYA</bendahara>
+		<dasardipa> </dasardipa>
+		<email>edwin.asrul@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>08</kdlokasi>
+		<kdsatker>527780</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>EDWIN ASRUL</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>3503080106950001</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>DENDI ANDRIAN</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>	<c_kpa>
+		<ambangbats>0</ambangbats>
+		<bendahara>M. ADITYA ASLAM</bendahara>
+		<dasardipa> </dasardipa>
+		<email>ika.heniyatun@kemenkeu.go.id</email>
+		<esakk>0</esakk>
+		<esawk>0</esawk>
+		<esawkguna>0</esawkguna>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdjendok>01</kdjendok>
+		<kdlokasi>08</kdlokasi>
+		<kdsatker>527819</kdsatker>
+		<kdunit>08</kdunit>
+		<kpa>IKA SARI HENIYATUN</kpa>
+		<levelrev> </levelrev>
+		<nodipa> </nodipa>
+		<nosprkakl> </nosprkakl>
+		<npwp>1371062612960007</npwp>
+		<pplpnbp>0</pplpnbp>
+		<ppspm>ZAMZAM AHMAD NURZAMAN</ppspm>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<statusblu> </statusblu>
+		<test> </test>
+		<thang>2026</thang>
+		<thsprkakl> </thsprkakl>
+	</c_kpa>
+</VFPData>

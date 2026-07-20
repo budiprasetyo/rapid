@@ -1,0 +1,441 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="c_cttakun" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="thang">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjendok">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsatker">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddept">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdunit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdprogram">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdgiat">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdib">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdlokasi">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkabkota">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddekon">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdskmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdakun">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkppn">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdbeban">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjnsban">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdctarik">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="register">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="carahitung">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ket" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="254"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ket2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="254"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>09</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>097</kdkppn>
+		<kdlokasi>03</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527322</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Revitalisasi Kompleks Rumah Dinas Jl. Kol. Sugiyono 2 Unit Type D seluas 160 M2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>51</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>031</kdkppn>
+		<kdlokasi>05</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527411</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Rehabilitasi Rumah Negara Gol II seluas 104 m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>27</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>073</kdkppn>
+		<kdlokasi>05</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527488</kdsatker>
+		<kdskmpnen>GB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi 1 Unit Gedung Kantor (Atap) seluas 1022 m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>
+	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>27</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>073</kdkppn>
+		<kdlokasi>05</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527488</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Rumah Dinas Golongan 1 Unit Tipe C Permanen seluas 131.75 m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>12</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>131</kdkppn>
+		<kdlokasi>05</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527521</kdsatker>
+		<kdskmpnen>GB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Layout Kantor Seluas 335 M2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>07</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>122</kdkppn>
+		<kdlokasi>06</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527624</kdsatker>
+		<kdskmpnen>GB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi 1 unit Gedung Kantor seluas 1.224 m2</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>532111</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>53</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>002</kdkppn>
+		<kdlokasi>06</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527581</kdsatker>
+		<kdskmpnen> A</kdskmpnen>
+		<kdsoutput>002</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Pembelian Peralatan dan Mesin untuk Kantor dan Rumah Dinas Sebanyak 13 Unit</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>
+	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>53</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>002</kdkppn>
+		<kdlokasi>06</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527581</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Rumah Negara Golongan I Tipe C Sejumlah 1 Unit (70 m2), Rumah Negara Golongan II Tipe D Sejumlah 4 Unit (200 m2), dan Renovasi Rumah Negara Golongan II Tipe C Sejumlah 1 Unit (70 m2)</ket>
+		<ket2></ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>	<c_cttakun>
+		<carahitung>0</carahitung>
+		<kdakun>533121</kdakun>
+		<kdbeban>A</kdbeban>
+		<kdctarik>0</kdctarik>
+		<kddekon>2</kddekon>
+		<kddept>015</kddept>
+		<kdgiat>4715</kdgiat>
+		<kdib>00</kdib>
+		<kdjendok>01</kdjendok>
+		<kdjnsban>0</kdjnsban>
+		<kdkabkota>55</kdkabkota>
+		<kdkmpnen>100</kdkmpnen>
+		<kdkppn>010</kdkppn>
+		<kdlokasi>08</kdlokasi>
+		<kdoutput>EBB</kdoutput>
+		<kdprogram>WA</kdprogram>
+		<kdsatker>527776</kdsatker>
+		<kdskmpnen>RB</kdskmpnen>
+		<kdsoutput>004</kdsoutput>
+		<kdunit>08</kdunit>
+		<ket>Renovasi Rumah Dinas Gol. II Jl. Raya Nanggalo Gg Ikhlas No. 10 seluas 50 M2</ket>
+		<ket2>Pembuatan Sumur Bor 3 Paket</ket2>
+		<levelrev> </levelrev>
+		<register> </register>
+		<revdipake>0</revdipake>
+		<revrkaklke>0</revrkaklke>
+		<thang>2026</thang>
+	</c_cttakun>
+</VFPData>
