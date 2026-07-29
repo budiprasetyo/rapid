@@ -162,9 +162,9 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
             st.warning(f"  - No inner `.sXX` file found. Skipping.")
             return {}
 
-        # --- THE FIX: Rename the .sXX file to .rar so patoolib recognizes it ---
-        # We simply append '.rar' to the file path to bypass patoolib's extension check
-        renamed_sxx_file = inner_sxx_file + '.rar'
+        # --- THE FIX: Rename the .sXX file to .zip so patoolib recognizes it ---
+        # We simply append '.zip' to the file path to bypass patoolib's extension check
+        renamed_sxx_file = inner_sxx_file + '.zip'
         os.rename(inner_sxx_file, renamed_sxx_file)
 
         # Extract inner archive using the renamed file
