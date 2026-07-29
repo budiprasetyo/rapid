@@ -176,7 +176,13 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
             subprocess.run(['unar', '-D', '-f', '-o', inner_extraction_dir, inner_sxx_file], check=True, capture_output=True, text=True)
             extracted = True
         except subprocess.CalledProcessError as e:
-            error_msgs.append(f"unar: {e.stderr.strip() if e.stderr else e.stdout.strip()}")
+            # unar might throw an error for a single corrupted file but still extract the rest successfully.
+            csv_files = [f for f in os.listdir(inner_extraction_dir) if f.endswith('.csv')]
+            if len(csv_files) > 0:
+                st.warning(f"  - `unar` reported a partial extraction error, but recovered {len(csv_files)} files. Proceeding...")
+                extracted = True
+            else:
+                error_msgs.append(f"unar: {e.stderr.strip() if e.stderr else e.stdout.strip()}")
         except FileNotFoundError:
             error_msgs.append("unar: executable not found")
             
