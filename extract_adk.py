@@ -164,26 +164,48 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
             st.warning(f"  - No inner `.sXX` file found. Skipping.")
             return {}
 
-        # --- THE FIX: Use native 7z to extract the inner file directly ---
-        # Instead of renaming the file and tricking patoolib, we call 7z directly.
-        # 7z reads the binary header (magic bytes) to figure out if it's a ZIP or RAR automatically.
+        # --- THE FIX: Robust Fallback Extraction for .s26 ---
         inner_extraction_dir = tempfile.mkdtemp(dir=temp_dir)
         import subprocess
+        
+        extracted = False
+        error_msgs = []
+        
+        # Try unar (handles rar5, zip, etc)
         try:
-            # Run 7z: x (extract with full paths), -y (yes to all), -o (output dir)
-            process = subprocess.run(
-                ['7z', 'x', '-y', f'-o{inner_extraction_dir}', inner_sxx_file],
-                check=True,
-                capture_output=True,
-                text=True
-            )
-            st.info(f"  - Successfully extracted inner archive.")
+            subprocess.run(['unar', '-D', '-f', '-o', inner_extraction_dir, inner_sxx_file], check=True, capture_output=True, text=True)
+            extracted = True
         except subprocess.CalledProcessError as e:
-            st.error(f"  - Failed to extract inner archive. 7z error: {e.stderr}")
-            return {}
+            error_msgs.append(f"unar: {e.stderr.strip() if e.stderr else e.stdout.strip()}")
         except FileNotFoundError:
-            st.error("  - The '7z' utility is not installed. Please ensure p7zip-full is in packages.txt.")
+            error_msgs.append("unar: executable not found")
+            
+        # Try 7z
+        if not extracted:
+            try:
+                subprocess.run(['7z', 'x', '-y', f'-o{inner_extraction_dir}', inner_sxx_file], check=True, capture_output=True, text=True)
+                extracted = True
+            except subprocess.CalledProcessError as e:
+                error_msgs.append(f"7z: {e.stderr.strip() if e.stderr else e.stdout.strip()}")
+            except FileNotFoundError:
+                error_msgs.append("7z: executable not found")
+
+        # Try unzip
+        if not extracted:
+            try:
+                subprocess.run(['unzip', '-o', inner_sxx_file, '-d', inner_extraction_dir], check=True, capture_output=True, text=True)
+                extracted = True
+            except subprocess.CalledProcessError as e:
+                error_msgs.append(f"unzip: {e.stderr.strip() if e.stderr else e.stdout.strip()}")
+            except FileNotFoundError:
+                error_msgs.append("unzip: executable not found")
+
+        if not extracted:
+            st.error(f"  - Failed to extract inner archive `{os.path.basename(inner_sxx_file)}`.")
+            st.error("Errors encountered:\n" + "\n".join(error_msgs))
             return {}
+            
+        st.info(f"  - Successfully extracted inner archive natively.")
 
         # Process each expected data file
         for prefix in TARGET_FILES.keys():
