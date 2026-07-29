@@ -242,8 +242,11 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
                             on_bad_lines='skip'
                         )
 
-                        # Clean caret characters AFTER parsing
-                        df = df.applymap(lambda x: str(x).replace('^', '') if isinstance(x, str) else x)
+                        # --- FIXED LOGIC: Clean caret (^) characters across all cells safely ---
+                        if hasattr(df, 'map'):
+                            df = df.map(lambda x: str(x).replace('^', '') if isinstance(x, str) else x)
+                        else:
+                            df = df.applymap(lambda x: str(x).replace('^', '') if isinstance(x, str) else x)
 
                         dataframes[prefix] = df
                         st.success(f"    - Successfully loaded `{extracted_file}` with {df.shape[1]} columns.")
