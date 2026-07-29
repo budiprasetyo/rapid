@@ -164,15 +164,26 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
             st.warning(f"  - No inner `.sXX` file found. Skipping.")
             return {}
 
-        # --- THE FIX: Rename the .sXX file to .zip so patoolib recognizes it ---
-        # We simply append '.zip' to the file path to bypass patoolib's extension check
-        renamed_sxx_file = inner_sxx_file + '.zip'
-        os.rename(inner_sxx_file, renamed_sxx_file)
-
-        # Extract inner archive using the renamed file
+        # --- THE FIX: Use native 7z to extract the inner file directly ---
+        # Instead of renaming the file and tricking patoolib, we call 7z directly.
+        # 7z reads the binary header (magic bytes) to figure out if it's a ZIP or RAR automatically.
         inner_extraction_dir = tempfile.mkdtemp(dir=temp_dir)
-        patoolib.extract_archive(renamed_sxx_file, outdir=inner_extraction_dir, verbosity=-1)
-        st.info(f"  - Successfully extracted inner archive.")
+        import subprocess
+        try:
+            # Run 7z: x (extract with full paths), -y (yes to all), -o (output dir)
+            process = subprocess.run(
+                ['7z', 'x', '-y', f'-o{inner_extraction_dir}', inner_sxx_file],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            st.info(f"  - Successfully extracted inner archive.")
+        except subprocess.CalledProcessError as e:
+            st.error(f"  - Failed to extract inner archive. 7z error: {e.stderr}")
+            return {}
+        except FileNotFoundError:
+            st.error("  - The '7z' utility is not installed. Please ensure p7zip-full is in packages.txt.")
+            return {}
 
         # Process each expected data file
         for prefix in TARGET_FILES.keys():
