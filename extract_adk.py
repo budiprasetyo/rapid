@@ -162,9 +162,14 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
             st.warning(f"  - No inner `.sXX` file found. Skipping.")
             return {}
 
-        # Extract inner archive
+        # --- THE FIX: Rename the .sXX file to .rar so patoolib recognizes it ---
+        # We simply append '.rar' to the file path to bypass patoolib's extension check
+        renamed_sxx_file = inner_sxx_file + '.rar'
+        os.rename(inner_sxx_file, renamed_sxx_file)
+
+        # Extract inner archive using the renamed file
         inner_extraction_dir = tempfile.mkdtemp(dir=temp_dir)
-        patoolib.extract_archive(inner_sxx_file, outdir=inner_extraction_dir, verbosity=-1)
+        patoolib.extract_archive(renamed_sxx_file, outdir=inner_extraction_dir, verbosity=-1)
         st.info(f"  - Successfully extracted inner archive.")
 
         # Process each expected data file
