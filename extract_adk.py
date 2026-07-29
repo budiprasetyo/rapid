@@ -146,11 +146,7 @@ def process_uploaded_rar(uploaded_file, temp_dir, selected_delimiter):
     try:
         # Extract outer archive
         outer_extraction_dir = tempfile.mkdtemp(dir=temp_dir)
-        # --- THE FIX: Force the outer archive to be recognized as a ZIP ---
-        # Even if the user uploads a .rar file, it's often a disguised ZIP.
-        # We save it as .zip so patoolib uses the built-in 'unzip' utility.
-        safe_name = os.path.splitext(uploaded_file.name)[0] + '.zip'
-        source_path = os.path.join(temp_dir, safe_name)
+        source_path = os.path.join(temp_dir, uploaded_file.name)
         
         with open(source_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
