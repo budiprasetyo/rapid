@@ -1,3 +1,4 @@
 streamlit
 patool
 pandas
+openpyxl
