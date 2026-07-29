@@ -1,2 +1,2 @@
-unrar
+unar
 p7zip-rar
